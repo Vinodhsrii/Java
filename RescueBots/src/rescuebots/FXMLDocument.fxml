@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rescuebots.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="1000.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Documents/SampleImage.jpg" />
+         </image></ImageView>
+      <AnchorPane prefHeight="1000.0" prefWidth="1000.0" style="-fx-background-color: Black;">
+         <children>
+<!--            <RadioButton fx:id="R1" layoutX="275.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R1" textAlignment="CENTER" />
+            <RadioButton fx:id="R2" layoutX="275.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R2" textAlignment="CENTER" />
+            <RadioButton fx:id="R3" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R3" textAlignment="CENTER" />
+            <RadioButton fx:id="R4" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R4" textAlignment="CENTER" />
+            <RadioButton fx:id="R5" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R5" textAlignment="CENTER" />
+            <RadioButton fx:id="R6" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R6" textAlignment="CENTER" />
+            <RadioButton fx:id="R7" layoutX="275.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R7" textAlignment="CENTER" />
+            <RadioButton fx:id="R8" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R8" textAlignment="CENTER" />
+            <RadioButton fx:id="R9" layoutX="275.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R9" textAlignment="CENTER" />
+            <RadioButton fx:id="R10" layoutX="279.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R10" textAlignment="CENTER" />
+            <RadioButton fx:id="R11" layoutX="276.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R11" textAlignment="CENTER" />
+            <RadioButton fx:id="R12" layoutX="279.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R12" textAlignment="CENTER" />
+            <RadioButton fx:id="R13" layoutX="275.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R13" textAlignment="CENTER" />
+            <RadioButton fx:id="R15" layoutX="275.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R15" textAlignment="CENTER" />
+            <RadioButton fx:id="R16" layoutX="275.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R16" textAlignment="CENTER" />
+            <RadioButton fx:id="R17" layoutX="280.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R17" textAlignment="CENTER" />
+            <RadioButton fx:id="R18" layoutX="275.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R18" textAlignment="CENTER" />
+            <RadioButton fx:id="R19" layoutX="275.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R19" textAlignment="CENTER" />
+            <RadioButton fx:id="R20" layoutX="274.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R20" textAlignment="CENTER" />
+            <RadioButton fx:id="R21" layoutX="279.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R21" textAlignment="CENTER" />
+            <RadioButton fx:id="R22" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R22" textAlignment="CENTER" />
+            <RadioButton fx:id="R23" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R23" textAlignment="CENTER" />
+            <RadioButton fx:id="R24" layoutX="274.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R24" textAlignment="CENTER" />
+            <RadioButton fx:id="R25" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R25" textAlignment="CENTER" />
+            <RadioButton fx:id="R26" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R26" textAlignment="CENTER" />
+            <RadioButton fx:id="R27" layoutX="279.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R27" textAlignment="CENTER" />
+            <RadioButton fx:id="R28" layoutX="279.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R28" textAlignment="CENTER" />
+            <RadioButton fx:id="R29" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R29" textAlignment="CENTER" />
+            <RadioButton fx:id="R30" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R30" textAlignment="CENTER" />
+            <RadioButton fx:id="R31" layoutX="275.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R31" textAlignment="CENTER" />
+            <RadioButton fx:id="R32" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R32" textAlignment="CENTER" />
+            <RadioButton fx:id="R33" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R33" textAlignment="CENTER" />
+            <RadioButton fx:id="R34" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R34" textAlignment="CENTER" />
+            <RadioButton fx:id="R35" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R35" textAlignment="CENTER" />
+            <RadioButton fx:id="R36" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R36" textAlignment="CENTER" />
+            <RadioButton fx:id="R37" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R37" textAlignment="CENTER" />
+            <RadioButton fx:id="R38" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R38" textAlignment="CENTER" />
+            <RadioButton fx:id="R39" layoutX="278.0" layoutY="233.0" mnemonicParsing="false" selected="true" text="R39" textAlignment="CENTER" />
+            <RadioButton fx:id="R40" layoutX="274.0" layoutY="233.0" mnemonicParsing="false" selected="true" style="-fx-background-color: Green;" text="R40" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">-->
+<!--               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#010202fc" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill></RadioButton>-->
+<Circle fx:id="R1" fill="DODGERBLUE" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R2" fill="#836720" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R3" fill="#aec8e1" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R4" fill="#de1fff" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R5" fill="#1fff56" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R6" fill="#456509" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R7" fill="#d4f8f5" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R8" fill="#8381c3" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R9" fill="#148609" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R10" fill="#d36e09" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R11" fill="#7d858d" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R12" fill="#466152" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R13" fill="DODGERBLUE" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+<!--            <Circle fx:id="R14" fill="DODGERBLUE" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />-->
+            <Circle fx:id="R15" fill="#d387b6" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R16" fill="#80add7" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R17" fill="#e6adee" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R18" fill="DODGERBLUE" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R19" fill="#284057" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R20" fill="#da90b3" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R21" fill="#7d858d" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R22" fill="#466152" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R23" fill="#aec8e1" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R24" fill="DODGERBLUE" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R25" fill="#284057" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R26" fill="#7d858d" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R27" fill="DODGERBLUE" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R28" fill="#466152" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R29" fill="DODGERBLUE" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R30" fill="#7d858d" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R31" fill="DODGERBLUE" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R32" fill="#7d858d" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R33" fill="#284057" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R34" fill="#466152" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R35" fill="DODGERBLUE" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R36" fill="#aec8e1" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R37" fill="#284057" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R38" fill="#7d858d" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R39" fill="DODGERBLUE" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="R40" fill="#ff2d1f" layoutX="262.0" layoutY="277.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />               
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
